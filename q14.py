@@ -1,10 +1,9 @@
-n=int(input('digite uma quatidade de numeros: '))
+n=int(input('digite seu numero: '))
+i=1
+while i*i<=n:
+    i=i+1
 
+resultado=(i-1)**2
 
-
-for i in range(n):
- if i**1/2==float:
-  continue
-else:
-  print(i)
+print(f'o quadrdo perfeito de {i-1} é igual a  {resultado}')
     
