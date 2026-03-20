@@ -4,7 +4,7 @@ n_tabuada=int(input('digite o numero da tabuada: '))
 for i in range(1,11):
     
     resultado=n_tabuada+i
-    print(f'a soma é {n_tabuada}+{i}={resultado}'sep=' ')
+    print(f'a soma é {n_tabuada}+{i}={resultado}')
     
     
     

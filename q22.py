@@ -1,7 +1,7 @@
 n=int(input('numero de vezes: '))
 
 
-magro=100000000
+magro=float('inf')
 gordo=0
 idmaior=0
 idmenor=0
@@ -23,13 +23,18 @@ for i in range( n):
 
 
     if peso<magro:
-        peso=magro
-        numero_identificação=idmenor
-        nome=nome_leve
-        
-        
-print(gordo, idmaior, nome_pesado)
-print(peso, numero_identificação, nome)
+        magro=peso
+        idmenor=numero_identificação
+        nome_leve=nome
+    
+
+
+
+print(f'o boi mais pesado pesa{gordo}KG e o seu numero de identificação é {idmaior}e o seu nome é {nome_pesado}')
+
+print(f'o boi mais leve pesa {magro}KG e o seu numero de identificação é {idmenor} e o seu nome é {nome_leve}')
+
+
 
     
 

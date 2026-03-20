@@ -1,4 +1,4 @@
-n = int(input('Digite uma quantidade de números: '))
+n = int(input('Digite um número: '))
 pula=1
 i=1
 
